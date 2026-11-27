@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   title: { default: "Sarvjan Sanatan Party (SSP)", template: "%s | Sarvjan Sanatan Party" },
   description:
     "Sarvjan Sanatan Party – Modern India rooted in its civilisation. A political alternative built around education, healthcare, livelihood and cultural preservation.",
-  icons: { icon: "/images/logo.webp" },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
