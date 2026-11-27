@@ -12,6 +12,9 @@ export default function Page() {
     <>
       <PageHero title="Make a Donation" />
       <Section>
+
+
+        
         <div className="mx-auto max-w-4xl">
           <p className="reveal text-center text-lg text-muted">{d[4][1]}</p>
           <div className="reveal mx-auto mt-10 max-w-sm rounded-3xl bg-white p-6 text-center shadow-xl ring-1 ring-black/5">
