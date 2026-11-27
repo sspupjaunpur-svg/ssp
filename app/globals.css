@@ -1,26 +1,56 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-saffron: #ffc900;
+  --color-saffron-soft: #ffd633;
+  --color-red: #e60023;
+  --color-maroon: #751d25;
+  --color-maroon-deep: #4a0f15;
+  --color-cream: #f5efe5;
+  --color-warm: #faf8f3;
+  --color-ink: #222222;
+  --color-muted: #5c5552;
+  --color-night: #171316;
+  --font-sans: var(--font-noto), var(--font-deva), system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html { scroll-behavior: smooth; }
+body { background: #fff; color: var(--color-ink); font-family: var(--font-sans); }
+
+/* flag stripe: golden yellow / white / red */
+.flag-bar {
+  background: linear-gradient(to bottom, #ffc900 0 50%, #fff 50% 66%, #e60023 66% 100%);
+  position: relative; overflow: hidden;
+}
+.flag-bar::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.7) 50%, transparent 70%);
+  animation: shimmer 4s linear infinite;
+}
+.text-gradient {
+  background: linear-gradient(90deg, #ffc900, #ffd633, #e60023);
+  -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes fade-up { from { opacity: 0; transform: translateY(32px); } to { opacity: 1; transform: none; } }
+@keyframes ken-burns { from { transform: scale(1); } to { transform: scale(1.12); } }
+@keyframes flag-wave { 0%,100% { transform: rotate(-2deg) translateY(0); } 50% { transform: rotate(2deg) translateY(-6px); } }
+@keyframes shimmer { from { transform: translateX(-100%); } to { transform: translateX(100%); } }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 rgba(255,201,0,.7); } 100% { box-shadow: 0 0 0 24px rgba(255,201,0,0); } }
+
+.animate-fade-up { animation: fade-up .8s ease both; }
+.animate-ken-burns { animation: ken-burns 7s ease-out both; }
+.animate-flag-wave { animation: flag-wave 5s ease-in-out infinite; }
+.animate-marquee { animation: marquee 30s linear infinite; }
+.animate-pulse-ring { animation: pulse-ring 1.8s ease-out infinite; }
+
+@supports (animation-timeline: view()) {
+  .reveal { animation: fade-up linear both; animation-timeline: view(); animation-range: entry 0% entry 40%; }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+dialog::backdrop { background: rgba(23,19,22,.85); }

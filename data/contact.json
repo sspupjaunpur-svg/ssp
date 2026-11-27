@@ -1,0 +1,140 @@
+[
+[
+"text",
+"page-breadcrumb-band\" aria-labelledby=\"page-breadcrumb-title\">"
+],
+[
+"h1",
+"Contact Us"
+],
+[
+"li",
+"Home"
+],
+[
+"li",
+"Contact Us"
+],
+[
+"h2",
+"Submit your details"
+],
+[
+"p",
+"Fields marked with * are required."
+],
+[
+"input",
+"text",
+"website",
+"",
+""
+],
+[
+"label",
+"Leave this field empty"
+],
+[
+"label",
+"Name *"
+],
+[
+"input",
+"text",
+"name",
+"Your full name",
+"req"
+],
+[
+"label",
+"Mobile Number *"
+],
+[
+"input",
+"tel",
+"mobile",
+"10-digit mobile number",
+"req"
+],
+[
+"label",
+"Voter ID Number (if any)"
+],
+[
+"input",
+"text",
+"voter_id",
+"Voter ID (optional)",
+""
+],
+[
+"label",
+"Aadhaar Card Number"
+],
+[
+"input",
+"text",
+"aadhar",
+"12-digit Aadhaar number (optional)",
+""
+],
+[
+"label",
+"State"
+],
+[
+"input",
+"text",
+"state",
+"State",
+""
+],
+[
+"label",
+"District"
+],
+[
+"input",
+"text",
+"district",
+"District",
+""
+],
+[
+"label",
+"Constituency"
+],
+[
+"input",
+"text",
+"constituency",
+"Constituency",
+""
+],
+[
+"label",
+"Subject *"
+],
+[
+"input",
+"text",
+"subject",
+"What is your message about?",
+"req"
+],
+[
+"label",
+"Brief in Detail *"
+],
+[
+"textarea",
+"",
+"message",
+"Tell us a little more about how we can help",
+"req"
+],
+[
+"button",
+"Submit"
+]
+]

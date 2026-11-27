@@ -1,0 +1,566 @@
+[
+[
+"text",
+"page-breadcrumb-band\" aria-labelledby=\"page-breadcrumb-title\">"
+],
+[
+"h1",
+"Become a Member"
+],
+[
+"li",
+"Home"
+],
+[
+"li",
+"Get Involved"
+],
+[
+"li",
+"Become a Member"
+],
+[
+"input",
+"hidden",
+"role",
+"",
+""
+],
+[
+"h3",
+"Select Membership Type ( सदस्यता प्रकार चुनें ) *"
+],
+[
+"input",
+"radio",
+"membership_type",
+"",
+"req"
+],
+[
+"label",
+"S Sadharan (साधारण) Plan: S General members can vote but cannot contest elections or hold office. ₹21"
+],
+[
+"input",
+"radio",
+"membership_type",
+"",
+""
+],
+[
+"label",
+"K Karmath (कर्मठ) Plan: K Can contest party elections and hold office up to the Assembly level. ₹108"
+],
+[
+"input",
+"radio",
+"membership_type",
+"",
+""
+],
+[
+"label",
+"V Vishisht (विशिष्ट) Plan: V Can hold office up to Union/Mandal level and contest elections from Ward to Assembly. ₹1,008"
+],
+[
+"input",
+"radio",
+"membership_type",
+"",
+""
+],
+[
+"label",
+"Y Yogeshwar (योगेश्वर) Plan: Y Can contest national-level elections and become a member of the national organization. ₹21,600"
+],
+[
+"h2",
+"Fill your Details"
+],
+[
+"p",
+"All fields ( * ) are required"
+],
+[
+"input",
+"text",
+"website",
+"",
+""
+],
+[
+"label",
+"Leave this field empty"
+],
+[
+"text",
+"01"
+],
+[
+"h3",
+"Applicant details"
+],
+[
+"label",
+"Full Name ( पूरा नाम ) *"
+],
+[
+"input",
+"text",
+"name",
+"Your Full Name",
+"req"
+],
+[
+"text",
+"Gender / Sex ("
+],
+[
+"text",
+"लिंग"
+],
+[
+"text",
+")"
+],
+[
+"text",
+"*"
+],
+[
+"input",
+"radio",
+"gender",
+"",
+"req"
+],
+[
+"label",
+"Male"
+],
+[
+"input",
+"radio",
+"gender",
+"",
+""
+],
+[
+"label",
+"Female"
+],
+[
+"input",
+"radio",
+"gender",
+"",
+""
+],
+[
+"label",
+"Others"
+],
+[
+"label",
+"Father's/Husband's Name ( पिता / पति का नाम ) *"
+],
+[
+"input",
+"text",
+"father_name",
+"Father or Husband's Name",
+"req"
+],
+[
+"label",
+"State / राज्य *"
+],
+[
+"select",
+"",
+"state",
+"",
+"req"
+],
+[
+"option",
+"-- Choose State / राज्य चुनें * --"
+],
+[
+"option",
+"Andhra Pradesh (आंध्र प्रदेश)"
+],
+[
+"option",
+"Arunachal Pradesh (अरुणाचल प्रदेश)"
+],
+[
+"option",
+"Assam (असम)"
+],
+[
+"option",
+"Bihar (बिहार)"
+],
+[
+"option",
+"Chhattisgarh (छत्तीसगढ़)"
+],
+[
+"option",
+"Goa (गोवा)"
+],
+[
+"option",
+"Gujarat (गुजरात)"
+],
+[
+"option",
+"Haryana (हरियाणा)"
+],
+[
+"option",
+"Himachal Pradesh (हिमाचल प्रदेश)"
+],
+[
+"option",
+"Jharkhand (झारखंड)"
+],
+[
+"option",
+"Karnataka (कर्नाटक)"
+],
+[
+"option",
+"Kerala (केरल)"
+],
+[
+"option",
+"Madhya Pradesh (मध्य प्रदेश)"
+],
+[
+"option",
+"Maharashtra (महाराष्ट्र)"
+],
+[
+"option",
+"Manipur (मणिपुर)"
+],
+[
+"option",
+"Meghalaya (मेघालय)"
+],
+[
+"option",
+"Mizoram (मिज़ोरम)"
+],
+[
+"option",
+"Nagaland (नागालैंड)"
+],
+[
+"option",
+"Odisha (ओडिशा)"
+],
+[
+"option",
+"Punjab (पंजाब)"
+],
+[
+"option",
+"Rajasthan (राजस्थान)"
+],
+[
+"option",
+"Sikkim (सिक्किम)"
+],
+[
+"option",
+"Tamil Nadu (तमिलनाडु)"
+],
+[
+"option",
+"Telangana (तेलंगाना)"
+],
+[
+"option",
+"Tripura (त्रिपुरा)"
+],
+[
+"option",
+"Uttar Pradesh (उत्तर प्रदेश)"
+],
+[
+"option",
+"Uttarakhand (उत्तराखंड)"
+],
+[
+"option",
+"West Bengal (पश्चिम बंगाल)"
+],
+[
+"option",
+"Andaman and Nicobar Islands (अंडमान और निकोबार द्वीप समूह)"
+],
+[
+"option",
+"Chandigarh (चंडीगढ़)"
+],
+[
+"option",
+"Dadra and Nagar Haveli and Daman and Diu (दादरा और नगर हवेली एवं दमन और दीव)"
+],
+[
+"option",
+"Delhi (दिल्ली)"
+],
+[
+"option",
+"Jammu and Kashmir (जम्मू और कश्मीर)"
+],
+[
+"option",
+"Ladakh (लद्दाख)"
+],
+[
+"option",
+"Lakshadweep (लक्षद्वीप)"
+],
+[
+"option",
+"Puducherry (पुडुचेरी)"
+],
+[
+"label",
+"Mobile Number *"
+],
+[
+"input",
+"tel",
+"mobile",
+"10-digit mobile number",
+"req"
+],
+[
+"label",
+"Email ID (Optional)"
+],
+[
+"input",
+"email",
+"email",
+"Your Email ID",
+""
+],
+[
+"label",
+"Upload your photo *"
+],
+[
+"label",
+"Choose Photo JPG, PNG, WEBP No file selected"
+],
+[
+"input",
+"file",
+"photo",
+"",
+"req"
+],
+[
+"text",
+"02"
+],
+[
+"h3",
+"Identity Document (Compulsory) *"
+],
+[
+"p",
+"कृपया पहचान पत्र चुनें, उसका नंबर दर्ज करें और उसके सामने (Front) और पीछे (Back) दोनों तरफ का फोटो अपलोड करें।"
+],
+[
+"p",
+"Compulsory / अनिवार्य"
+],
+[
+"label",
+"Document Type *"
+],
+[
+"select",
+"",
+"doc_type",
+"",
+"req"
+],
+[
+"option",
+"-- Select Document Type * --"
+],
+[
+"option",
+"Aadhaar Card (आधार कार्ड)"
+],
+[
+"option",
+"PAN Card (पैन कार्ड)"
+],
+[
+"option",
+"Voter ID Card (मतदाता पहचान पत्र)"
+],
+[
+"option",
+"Driving License (ड्राइविंग लाइसेंस)"
+],
+[
+"option",
+"Passport (पासपोर्ट)"
+],
+[
+"label",
+"Document Number *"
+],
+[
+"input",
+"text",
+"doc_number",
+"Enter document number",
+"req"
+],
+[
+"label",
+"1. Front Side Photo ( सामने का फोटो ) *"
+],
+[
+"label",
+"Upload Front Side * JPG, PNG, WEBP, PDF No file selected"
+],
+[
+"input",
+"file",
+"doc_front",
+"",
+"req"
+],
+[
+"label",
+"2. Back Side Photo ( पीछे का फोटो ) *"
+],
+[
+"label",
+"Upload Back Side * JPG, PNG, WEBP, PDF No file selected"
+],
+[
+"input",
+"file",
+"doc_back",
+"",
+"req"
+],
+[
+"text",
+"03"
+],
+[
+"h3",
+"Membership Fee & Payment Screenshot ( स्क्रीनशॉट ) *"
+],
+[
+"p",
+"* Compulsory / अनिवार्य"
+],
+[
+"text",
+"चयनित सदस्यता प्रकार (Selected Plan):"
+],
+[
+"text",
+"देय शुल्क:"
+],
+[
+"text",
+"₹0"
+],
+[
+"text",
+"Scan to Pay Fee"
+],
+[
+"img",
+"https://sarvjansanatanparty.org/views/basic/assets/images/qr.webp",
+"Party Payment QR"
+],
+[
+"p",
+"Any UPI (GPay, PhonePe, Paytm)"
+],
+[
+"label",
+"Upload Payment Screenshot ( भुगतान रसीद ) *"
+],
+[
+"label",
+"Upload Payment Screenshot * JPG, PNG, WEBP (Screenshot - अनिवार्य ) No file selected"
+],
+[
+"input",
+"file",
+"payment_screenshot",
+"",
+"req"
+],
+[
+"text",
+"04"
+],
+[
+"h3",
+"Terms and Conditions (Declaration)"
+],
+[
+"li",
+"I am Indian and self-respecting, patriotic, believer in the sacred tradition of Sanatan."
+],
+[
+"li",
+"I am not involved in any kind of anti-religious and anti-national activities."
+],
+[
+"li",
+"I am not a member of any other party. I try to remain pure in thought, word, and deed."
+],
+[
+"li",
+"I am well acquainted with the principles and rules of Sarvjan Sanatan Party."
+],
+[
+"li",
+"If I am ever found guilty of any kind of involvement against Sarvjan Sanatan Party or the country and Sanatan Dharma, I should be immediately expelled from the party."
+],
+[
+"li",
+"My loyalty is with Sarvjan Sanatan Party, I am resolved to make the people of the country self-respecting and the country powerful."
+],
+[
+"li",
+"I will follow the instructions issued by the party from time to time, and will always be ready to protect my self-respect and values."
+],
+[
+"input",
+"checkbox",
+"terms",
+"",
+"req"
+],
+[
+"label",
+"I have read all the above terms and conditions and I agree with them. *"
+],
+[
+"button",
+"Submit"
+]
+]

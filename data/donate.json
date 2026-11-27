@@ -1,0 +1,102 @@
+[
+[
+"text",
+"page-breadcrumb-band\" aria-labelledby=\"page-breadcrumb-title\">"
+],
+[
+"h1",
+"Make a Donation"
+],
+[
+"li",
+"Home"
+],
+[
+"li",
+"Make a Donation"
+],
+[
+"p",
+"Your contribution powers our campaign for a better tomorrow."
+],
+[
+"h3",
+"Scan QR to Donate Directly"
+],
+[
+"img",
+"https://sarvjansanatanparty.org/views/basic/assets/images/qr.webp",
+"Donate QR Code"
+],
+[
+"text",
+"Or Fill Details Below"
+],
+[
+"input",
+"text",
+"website",
+"",
+""
+],
+[
+"label",
+"Leave this field empty"
+],
+[
+"label",
+"Full Name"
+],
+[
+"input",
+"text",
+"name",
+"Enter your full name",
+"req"
+],
+[
+"label",
+"Email Address"
+],
+[
+"input",
+"email",
+"email",
+"you@example.com",
+"req"
+],
+[
+"label",
+"Donation Amount (₹)"
+],
+[
+"input",
+"number",
+"amount",
+"",
+"req"
+],
+[
+"label",
+"Payment Screenshot"
+],
+[
+"label",
+"📸 Click or Tap to Upload Screenshot"
+],
+[
+"input",
+"file",
+"payment_screenshot",
+"",
+"req"
+],
+[
+"p",
+"Your details are used to record this contribution and its payment confirmation."
+],
+[
+"button",
+"Donate ₹0"
+]
+]
