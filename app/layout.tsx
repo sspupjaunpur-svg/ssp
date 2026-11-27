@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${noto.variable} ${deva.variable} antialiased`}>
+    <html lang="hi" className={`${noto.variable} ${deva.variable} antialiased`}>
       <body className="flex min-h-screen flex-col overflow-x-hidden">
         <Header />
         <main className="flex-1">{children}</main>

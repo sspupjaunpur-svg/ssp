@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { NAV } from "@/lib/nav";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -63,10 +64,12 @@ export default function Header() {
         </nav>
 
         <div className="hidden items-center gap-2 xl:flex">
+          <LanguageSwitcher />
           <Link href="/join" className="rounded-full bg-saffron px-5 py-2.5 text-sm font-bold text-ink shadow transition hover:-translate-y-0.5 hover:shadow-lg">Join Now</Link>
           <Link href="/donate" className="rounded-full bg-red px-5 py-2.5 text-sm font-bold text-white shadow transition hover:-translate-y-0.5 hover:bg-maroon hover:shadow-lg">Make A Donation</Link>
         </div>
 
+        <LanguageSwitcher className="ml-auto xl:hidden" />
         <button type="button" onClick={() => setOpen(true)} className="rounded-lg p-2 text-maroon xl:hidden" aria-label="Open menu" aria-expanded={open}>
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden><path d="M4 6h16M4 12h16M4 18h16" /></svg>
         </button>
